@@ -16,6 +16,7 @@ function Obstacle:init(x, y, image)
 	self:setCollidesWithGroups(GROUPS.PlayerG)
 	self:setZIndex(LAYERS.GameplayL)
 	Obstacle.super.init(self)
+	-- shit in my mouth
 end
 
 function Obstacle:update()
